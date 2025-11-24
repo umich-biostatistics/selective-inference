@@ -41,3 +41,4 @@ build
 *.csv
 doc/source/api/generated/*
 docs/source/api/generated/*
+*.egg-info
