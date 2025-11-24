@@ -119,6 +119,7 @@ def main(**extra_args):
           author_email=info.AUTHOR_EMAIL,
           platforms=info.PLATFORMS,
           version=versioneer.get_version(),
+          python_requires='>=3.9',
           requires=info.REQUIRES,
           provides=info.PROVIDES,
           packages     = ['selectinf',
