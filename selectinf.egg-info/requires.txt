@@ -1,4 +1,5 @@
 Cython>=0.29.5
+scipy>=0.9
 
 [doc]
 Sphinx>=1.0

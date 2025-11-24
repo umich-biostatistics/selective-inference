@@ -1,6 +1,6 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: selectinf
-Version: 0+untagged.2.gbd8dcea.dirty
+Version: 0+untagged.3.g495981c.dirty
 Summary: Testing a fixed value of lambda
 Home-page: http://github.org/jonathan.taylor/selective-inference
 Download-URL: 
@@ -22,9 +22,28 @@ Requires: scipy (>=0.9)
 Requires: mpmath (>=0.18)
 Requires: pyinter
 Provides: fixed_lambda
-Provides-Extra: doc
-Provides-Extra: test
+Requires-Python: >=3.9
 License-File: LICENSE
+Requires-Dist: Cython>=0.29.5
+Requires-Dist: scipy>=0.9
+Provides-Extra: doc
+Requires-Dist: Sphinx>=1.0; extra == "doc"
+Provides-Extra: test
+Requires-Dist: nose>=0.10.1; extra == "test"
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: platform
+Dynamic: provides
+Dynamic: provides-extra
+Dynamic: requires
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
 
 The selection project

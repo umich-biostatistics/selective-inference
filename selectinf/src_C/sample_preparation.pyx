@@ -51,7 +51,7 @@ def quad_sampler(int n_sample,
         
 
 
-    print "quad inequalities generated"
+    print("quad inequalities generated")
 
     
     cdef np.ndarray[np.double_t, ndim=2] lin2  = np.ascontiguousarray(-lin )

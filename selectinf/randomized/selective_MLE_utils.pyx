@@ -2,9 +2,10 @@ import warnings
 import numpy as np, cython
 cimport numpy as cnp
 
-DTYPE_float = np.float
-ctypedef cnp.float_t DTYPE_float_t
-DTYPE_int = np.int
+DTYPE_float = np.float64
+ctypedef cnp.float64_t DTYPE_float_t
+DTYPE_int = np.intp
+ctypedef cnp.intp_t DTYPE_int_t
 
 cdef extern from "selective_mle.h":
 
