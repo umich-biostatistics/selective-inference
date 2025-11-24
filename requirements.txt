@@ -1,5 +1,5 @@
 cython
-numpy<=1.22.4
+numpy==1.22.4
 scipy
 pandas
 mpmath
